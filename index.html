@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Astolfo Clicker</title>
+        <link rel = "stylesheet" href = "style.css"/>
+        <script src = "javascript.js"></script>
+        
+    </head>
+    <body>
+        <div id = "dada">
+            <h1 id="con">0 Astolf</h1> 
+            <h1 id="apc">1 Astolf Per Click</h2>
+        </div>
+        <div>
+            <img src = "images/pngegg.png"id = "tap" onmousedown = "when()" onmouseup = "didiask()" onclick = "clicky()"/>
+            
+        <div>
+        <div id = "case">
+            <div id = "organs"></div>
+            <p id= "poop">Level 1</p>
+        </div>
+        <table id = "purchase">
+            <tr></tr>
+        </table>
+    </body>
+    <script>
+        document.getElementById("con").innerHTML = String(astolfs.value) + " Astolf";
+        document.getElementById("apc").innerHTML = String(clickstr.value) + " Astolf Per Click";
+        document.getElementById("poop").innerHTML = "Level " + String(level.value);
+        document.getElementById("organs").style = "width: " + 100 * exp.value/exptonext.value + "%";
+    </script>
+</html>

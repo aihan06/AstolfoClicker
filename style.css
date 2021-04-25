@@ -1,0 +1,62 @@
+#tap {
+    height: 290px;
+    padding-left: 5px;
+    padding-top: 5px;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+html {
+    background-color: black;
+}
+#con {
+    color: #B698A8;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    margin: 0px;
+}
+
+#apc {
+    color: #B698A8;
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    vertical-align: top;
+    margin: 0px;
+}
+#dada {
+    max-height: 100px;
+}
+#organs {
+    max-width: 100%;
+    width: 0%;
+    height: 30px;
+    position: absolute;
+    background-color: #B698A8;
+    top: 0px; left: 0px;
+}
+#case {
+    width: 300px;
+    height: 30px;
+    background-color: rgb(87, 63, 83);
+    position: absolute;
+    top: 400px; left: 62px;
+}
+#poop {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 25px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    margin: 0px;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    
+}
