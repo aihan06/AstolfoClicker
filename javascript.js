@@ -73,7 +73,7 @@ function clicky() {
 }
 function update() {
     document.getElementById("apc").innerHTML = String(clickstr.value) + " Astolf Per Click";
-    if (astolfs.value < 1000) {
+    if (astolfs.value < 1000000000000000) {
         document.getElementById("con").innerHTML = String(Math.floor(astolfs.value)) + " Astolf";
     }
     document.getElementById("poop").innerHTML = "Level " + String(level.value);
